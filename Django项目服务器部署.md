@@ -1,5 +1,7 @@
 刚买的服务器需要安装Nginx或者Apache才能通过公网IP进行访问。
 
+需要先安装好软件，Nginx或者Apache、uwsgi。
+
 推荐一个部署Django项目到阿里云的视频教程：https://www.bilibili.com/video/BV1Sb411x7wi
 
 
