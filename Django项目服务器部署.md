@@ -88,6 +88,7 @@
       
 **uwsgi配置**：manage.py同目录下新建一个任意文件名.ini文件，文件也可放在其他目录下。
 ```
+    [uwsgi]
     chdir = 项目目录,全路径，到manage.py这一级目录
     wsgi-file = mange.py同级目录下有wsgi.py文件的目录，也就是项目目录    示例：visual_project/wsgi.py
     socket = 127.0.0.1:8000
