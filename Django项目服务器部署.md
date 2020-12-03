@@ -5,8 +5,8 @@
 推荐一个部署Django项目到阿里云的视频教程：https://www.bilibili.com/video/BV1Sb411x7wi
 
 
-服务器上安装MySQL后需要手动启动：systemctl start mysqld.service
-可以设置成开机自启。
+服务器上安装MySQL后需要手动启动：```systemctl start mysqld.service```，
+可以设置成开机自启，控制台运行```systemctl enable mysqld.service```。
 
 **提示** ：vim操作，i进入编辑模式，esc退出编辑模式，命令模式下:wq!为保存并退出。
 
@@ -23,7 +23,10 @@
   kill -9 pid号    杀死对应的进程
   uwsgi --ini 文件名.ini   在文件目录下启动通过uwsgi启动项目
   uwsgi --stop 文件名.pid  在文件的目录下停止启动的项目，前提是uwsgi的配置文件中有设置pidfile。
+  nohup uwsgi --ini 文件名.ini   可以让项目在断开连接后仍然运行
 ```
+
+**温馨提示**：在Nginx的配置文件中加上```rror_log 绝对路径/文件名.log error;```可以查看Nginx的错误输出，在进行调试修改时会有一定帮助。
 
 <br><br>
 **遇到的错误以及解决方法**：
