@@ -67,7 +67,7 @@
    ```
    重启Nginx即可看到样式出现。
    
-   出现样式后浏览器端和Nginx的错误日志可能会报rest_framework的静态文件没有bootstrap.min.css.map错误，此时只需要删除掉bootstrap.min.css文件内容最后一行/*…………*/内容即可。
+   出现样式后浏览器端和Nginx的错误日志可能会报rest_framework的静态文件没有bootstrap.min.css.map错误，此时只需要删除掉bootstrap.min.css文件内容最后一行/\*…………\*/内容即可。
    
    <br><br>
    
