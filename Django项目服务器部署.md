@@ -45,7 +45,7 @@
   
    解决办法：找到Django的位置和pytz的位置，加入到uwsgi的配置文件中。
    ```
-   注：pip show django |grep -i location  显示Django的位置
+   注：pip show django |grep -i Location  显示Django的位置
       pythonpath = django和pytz的位置，分两行写。
    ```
    
