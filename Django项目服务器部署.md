@@ -74,7 +74,7 @@
    
    uwsgi在服务器内存占用大量内存导致Django项目卡死
    
-   原因及解决办法：uwsgi的processes设置过高，要根据服务器的cpu内核数来设置processes的数量，一般设置为内核数的两倍即可。
+   原因及解决办法：uwsgi的processes设置过高，要根据服务器的cpu内核数来设置processes的数量，一般最高设置为内核数的两倍。
    
    <br><br>
    
