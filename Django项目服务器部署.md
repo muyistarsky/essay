@@ -70,6 +70,12 @@
    
    出现样式后浏览器端和Nginx的错误日志可能会报rest_framework的静态文件没有bootstrap.min.css.map错误，此时只需要删除掉bootstrap.min.css文件内容最后一行/\*…………\*/内容即可。
    
+   <br>
+   
+   uwsgi在服务器内存占用大量内存导致Django项目卡死
+   
+   原因及解决办法：uwsgi的processes设置过高，要根据服务器的cpu内核数来设置processes的数量，一般设置为内核数的两倍即可。
+   
    <br><br>
    
    
