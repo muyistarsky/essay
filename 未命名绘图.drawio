@@ -558,7 +558,7 @@
         <mxCell id="Ehv1gzcwhyLpramGvFcK-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.021;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ehv1gzcwhyLpramGvFcK-42" target="Ehv1gzcwhyLpramGvFcK-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-1" target="hmm1_KkuHuoUm4gkLRT1-234">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-1" target="hmm1_KkuHuoUm4gkLRT1-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-1" value="历史数据初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1365,38 +1365,93 @@
             <mxPoint x="980" y="3716" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-234" target="hmm1_KkuHuoUm4gkLRT1-239">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-234" target="hmm1_KkuHuoUm4gkLRT1-236">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-234" value="查询历史灰度数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-854" y="2976" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-236" target="hmm1_KkuHuoUm4gkLRT1-241">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-854" y="3229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-236" target="hmm1_KkuHuoUm4gkLRT1-240">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-268" value="写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-247">
+          <mxGeometry x="-0.3333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-236" target="hmm1_KkuHuoUm4gkLRT1-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-236" value="写入新缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-854" y="3162" width="120" height="60" as="geometry" />
+          <mxGeometry x="-854" y="3314" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-237" value="&lt;div&gt;select la.ref_level, la.ref_id, la.ref_code from&lt;/div&gt;&lt;div&gt;license_assignment la&amp;nbsp;&lt;/div&gt;&lt;div&gt;left join license_item li on la.license_level = 2 and la.ref_code = li.code&lt;/div&gt;&lt;div&gt;where li.status = 1 and la.state = 1&lt;/div&gt;&lt;div&gt;union&lt;/div&gt;&lt;div&gt;select la.ref_level, la.ref_id, la.ref_code from&lt;/div&gt;&lt;div&gt;license_assignment la&lt;/div&gt;&lt;div&gt;left join license_group_item lgi on la.license_level = 1 and la.ref_code = lgi.group_code&lt;/div&gt;&lt;div&gt;where la.state = 1&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-715" y="2988" width="563" height="30" as="geometry" />
+          <mxGeometry x="-503" y="2896" width="563" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-239" target="hmm1_KkuHuoUm4gkLRT1-236">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-239" target="hmm1_KkuHuoUm4gkLRT1-256">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-239" target="hmm1_KkuHuoUm4gkLRT1-240">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-239" target="hmm1_KkuHuoUm4gkLRT1-240">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-239" value="删除历史redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-854" y="3069" width="120" height="60" as="geometry" />
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-270" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-269">
+          <mxGeometry x="-0.8247" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-239" value="遍历集合删除历史redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-854" y="3058" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-240" value="redis&lt;div&gt;GRAY_CACHE:tenantId:[projectId]&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1105" y="3211" width="137" height="79" as="geometry" />
+          <mxGeometry x="-1094" y="3304.5" width="137" height="79" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-241" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-854" y="3255" width="120" height="60" as="geometry" />
+          <mxGeometry x="-854" y="3495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-248" target="hmm1_KkuHuoUm4gkLRT1-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-248" target="hmm1_KkuHuoUm4gkLRT1-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-260" value="查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-255">
+          <mxGeometry x="-0.5784" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-248" value="查询redis获取所有灰度的key集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-854" y="2973" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-249" value="redis&lt;div&gt;GRAY_CACHE_KEYS:[GRAY_CACHE:tenantId]&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-613" y="3134.5" width="137" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-256" target="hmm1_KkuHuoUm4gkLRT1-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-256" target="hmm1_KkuHuoUm4gkLRT1-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-261" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-259">
+          <mxGeometry x="-0.5848" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-256" value="删除GRAY_CACHE_KEYS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-854" y="3144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-263" target="hmm1_KkuHuoUm4gkLRT1-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-263" value="key存入GRAY_CACHE_KEYS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-854" y="3403" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.54;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-263" target="hmm1_KkuHuoUm4gkLRT1-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-267" value="写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-266">
+          <mxGeometry x="-0.7958" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
