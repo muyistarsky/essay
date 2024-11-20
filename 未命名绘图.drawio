@@ -1453,7 +1453,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-272" value="kafa消息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;horizontal=0;" vertex="1" parent="1">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-272" value="表变更" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="-1816.68" y="2563.94" width="60" height="669.13" as="geometry" />
         </mxCell>
         <mxCell id="hmm1_KkuHuoUm4gkLRT1-274" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.008;exitY=0.181;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hmm1_KkuHuoUm4gkLRT1-272">
@@ -1462,7 +1462,7 @@
             <mxPoint x="-1574" y="3012" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-275" value="license_item update消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-274">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-275" value="license_item update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-274">
           <mxGeometry x="-0.084" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1571,7 +1571,7 @@
             <mxPoint x="-2190" y="3029" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hmm1_KkuHuoUm4gkLRT1-313" value="license_assignment消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-312">
+        <mxCell id="hmm1_KkuHuoUm4gkLRT1-313" value="license_assignment变更" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmm1_KkuHuoUm4gkLRT1-312">
           <mxGeometry x="-0.1215" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
