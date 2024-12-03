@@ -1802,14 +1802,27 @@
             <mxPoint x="2189" y="3255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="58BgTFOUSPyKnL3_a-_f-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="58BgTFOUSPyKnL3_a-_f-31">
+          <mxGeometry x="-0.0044" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="58BgTFOUSPyKnL3_a-_f-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.53;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="58BgTFOUSPyKnL3_a-_f-30" target="58BgTFOUSPyKnL3_a-_f-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2149" y="3315" as="sourcePoint" />
             <mxPoint x="2199" y="3265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="58BgTFOUSPyKnL3_a-_f-46" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="58BgTFOUSPyKnL3_a-_f-32">
+          <mxGeometry x="-0.0455" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="58BgTFOUSPyKnL3_a-_f-33" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1792" y="3314" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58BgTFOUSPyKnL3_a-_f-47" value="搜索人员列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2577" y="2698" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
