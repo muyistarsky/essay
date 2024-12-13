@@ -1960,6 +1960,12 @@
         <mxCell id="1E78vdRECbGvMIMIbPJu-41" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1611" y="1019" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1E78vdRECbGvMIMIbPJu-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B20000;dashed=1;dashPattern=8 8;fontColor=#ffffff;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" vertex="1" parent="1">
+          <mxGeometry x="881" y="778" width="331" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="1E78vdRECbGvMIMIbPJu-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B20000;dashed=1;dashPattern=8 8;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="593" width="175" height="507" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
